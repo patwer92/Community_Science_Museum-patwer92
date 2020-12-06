@@ -1,2 +1,2 @@
-# Community_Science_Museum-patwer92
-Semester project - developing a science museum website
+# CS_museum-semester-project
+Semester Project - Developing a museum website in HTML / CSS

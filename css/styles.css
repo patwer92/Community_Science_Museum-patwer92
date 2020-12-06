@@ -1,0 +1,378 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open-sans", sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GLOBAL CLASSES */
+
+.site-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background: #01c9d6;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.nav {
+    margin-top: 20px;
+    text-align: right;
+    min-height: 10vh;
+}
+
+.logo {
+    margin: 0;
+    height: 70px;
+    width: 80px;
+    float: left;
+}
+
+.logo-text {
+    margin-top: 23px;
+    font-family: oswald, sans-serif;
+    float: left;
+    color: #ff8c1a;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.logo-text span {
+    color: black;
+    letter-spacing: 0;
+}
+
+/* HEADER - NAVIGATION */
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu a {
+    clear: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    line-height: 70px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.menu span {
+    color: #54d17a;
+}
+
+label {
+    margin: 0 30px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 2.6rem;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/* MAIN PAGE SECTION */
+
+.home-section {
+    height: 92vh;
+    background-image: url(/images/michael-van-kerckhove-iN3xWBNHmnw-unsplash-min-min.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-box1,
+.home-box2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.home-box1 {
+    height: 250px;
+    margin-bottom: 10vh;
+}
+
+.home-box1 p {
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.home-box1 h2 {
+    margin-top: 10px;
+    color: #d75758;
+    font-size: 3.5rem;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.home-box2 {
+    height: 380px;
+    float: right;
+}
+
+.home-box2 h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.home-box2 h1 {
+    margin-top: 10px;
+    padding: 20px 25px 30px 25px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* HOME-BOX2 CONTENT / Styling of text. */
+
+.name {
+    text-transform: capitalize;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+/* EXPLORE SECTION */
+
+.discover-section {
+    height: 100vh;
+    background-image: url(/images/background-2462432_1920-min.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover-container1,
+.discover-container2 {
+    margin: 25px;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.discover-textbox1,
+.discover-textbox2 {
+    width: 600px;
+    height: 400px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.discover-textbox1 h2,
+.discover-textbox2 h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #d75758;
+}
+
+.discover-textbox1 p,
+.discover-textbox2 p {
+    text-align: left;
+    margin: 30px 60px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.discover-container1 img,
+.discover-container2 img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+/* MEDIA QUERIES */
+
+/* HEADER MEDIA QUERY */
+
+@media only screen and (max-width: 800px) {
+    /* GLOBAL CLASSES RESPONSIVE MODE */
+
+    .site-btn {
+        padding: 5px;
+        width: 150px;
+        height: 40px;
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
+
+    /* NAV BAR RESPONSIVE MODE*/
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0;
+    }
+
+    .menu a:hover {
+        background-color: #f3bf8b;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    /* HOME-PAGE RESPONSIVE MODE */
+
+    .home-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-box1,
+    .home-box2 {
+        width: 380px;
+    }
+
+    .home-box1 {
+        height: 200px;
+    }
+    .home-box2 {
+        height: 380px;
+    }
+}
+
+/* DISCOVER PAGE RESPONSIVE MODE */
+
+@media only screen and (max-width: 1200px) {
+    .discover-textbox1,
+    .discover-textbox2 {
+        width: 360px;
+        height: 320px;
+    }
+
+    .discover-container1 img,
+    .discover-container2 img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .discover-textbox1 h2,
+    .discover-textbox2 h2 {
+        font-size: 2rem;
+    }
+
+    .discover-textbox1 p,
+    .discover-textbox2 p {
+        margin: 25px 40px;
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .site-btn {
+        padding: 5px;
+        width: 150px;
+        height: 40px;
+        font-size: 0.8rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .discover-container1,
+    .discover-container2 {
+        margin: 0px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .discover-textbox1,
+    .discover-textbox2 {
+        width: 220px;
+        height: 320px;
+    }
+
+    .discover-container1 img,
+    .discover-container2 img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .discover-textbox1 h2,
+    .discover-textbox2 h2 {
+        font-size: 1.2rem;
+    }
+
+    .discover-textbox1 p,
+    .discover-textbox2 p {
+        margin: 15px 15px;
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+}
