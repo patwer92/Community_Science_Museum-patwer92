@@ -198,7 +198,7 @@ label {
 .discover-container2 {
     margin: 25px;
     width: 80%;
-    height: 450px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -244,7 +244,7 @@ label {
 
 /* HEADER MEDIA QUERY */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 930px) {
     /* GLOBAL CLASSES RESPONSIVE MODE */
 
     .site-btn {
