@@ -183,7 +183,7 @@ label {
     font-style: italic;
 }
 
-/* EXPLORE SECTION */
+/* DISCOVER SECTION */
 
 .discover-section {
     height: 100vh;
@@ -354,7 +354,7 @@ label {
     .discover-textbox1,
     .discover-textbox2 {
         width: 220px;
-        height: 320px;
+        height: 270px;
     }
 
     .discover-container1 img,
