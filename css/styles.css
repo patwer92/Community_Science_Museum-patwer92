@@ -109,7 +109,7 @@ label {
 /* MAIN PAGE SECTION */
 
 .home-section {
-    min-height: 92vh;
+    min-height: 90vh;
     background-image: url(/images/michael-van-kerckhove-iN3xWBNHmnw-unsplash-min-min.jpg);
     background-size: cover;
     background-position: center;
@@ -129,7 +129,7 @@ label {
 
 .home-textbox1,
 .home-textbox2 {
-    margin: 20px;
+    margin: 100px 20px;
     text-align: center;
     width: 500px;
     background: rgba(0, 0, 0, 0.8);
@@ -310,7 +310,7 @@ label {
         height: 100%;
     }
     .home-textbox2 {
-        height: 380px;
+        height: 320px;
     }
 
     .home-textbox1 p {
@@ -321,11 +321,12 @@ label {
     }
 
     .home-textbox2 h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .home-textbox2 h1 {
         margin-left: 25px;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 25px;
     }
 }
 
@@ -388,7 +389,7 @@ label {
 
     .discover-textbox1 h2,
     .discover-textbox2 h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .discover-textbox1 p,
