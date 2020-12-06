@@ -115,21 +115,27 @@ label {
     background-position: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
 }
 
 .home-container1 {
     width: 100%;
+    height: 100%;
 }
 
 .home-container2 {
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .home-textbox1,
 .home-textbox2 {
-    margin: 100px 20px;
+    margin: 20px;
     text-align: center;
     width: 500px;
     background: rgba(0, 0, 0, 0.8);
@@ -163,8 +169,6 @@ label {
 
 .home-textbox2 {
     height: 380px;
-    float: right;
-    position: relative;
 }
 
 .home-textbox2 h2 {
@@ -175,7 +179,7 @@ label {
 
 .home-textbox2 h1 {
     margin-top: 10px;
-    padding: 20px 25px 30px 25px;
+    padding: 20px 20px;
     color: white;
     letter-spacing: 2px;
     text-align: left;
@@ -301,6 +305,10 @@ label {
         justify-content: center;
     }
 
+    .home-container2 {
+        align-items: center;
+    }
+
     .home-textbox1,
     .home-textbox2 {
         width: 380px;
@@ -310,7 +318,7 @@ label {
         height: 100%;
     }
     .home-textbox2 {
-        height: 320px;
+        height: 280px;
     }
 
     .home-textbox1 p {
@@ -324,8 +332,8 @@ label {
         font-size: 2rem;
     }
     .home-textbox2 h1 {
-        margin-left: 25px;
-        font-size: 1rem;
+        margin-left: 30px;
+        font-size: 1.2rem;
         line-height: 25px;
     }
 }
@@ -377,7 +385,7 @@ label {
     .discover-textbox1,
     .discover-textbox2 {
         width: 250px;
-        height: 290px;
+        height: 320px;
     }
 
     .discover-container1 img,
@@ -389,7 +397,7 @@ label {
 
     .discover-textbox1 h2,
     .discover-textbox2 h2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .discover-textbox1 p,
