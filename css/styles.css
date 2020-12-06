@@ -109,16 +109,27 @@ label {
 /* MAIN PAGE SECTION */
 
 .home-section {
-    height: 92vh;
+    min-height: 92vh;
     background-image: url(/images/michael-van-kerckhove-iN3xWBNHmnw-unsplash-min-min.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
-.home-box1,
-.home-box2 {
-    margin-left: 40px;
-    margin-right: 40px;
+.home-container1 {
+    width: 100%;
+}
+
+.home-container2 {
+    width: 100%;
+}
+
+.home-textbox1,
+.home-textbox2 {
+    margin: 20px;
     text-align: center;
     width: 500px;
     background: rgba(0, 0, 0, 0.8);
@@ -129,12 +140,11 @@ label {
     border-radius: 15px;
 }
 
-.home-box1 {
-    height: 250px;
-    margin-bottom: 10vh;
+.home-textbox1 {
+    height: 100%;
 }
 
-.home-box1 p {
+.home-textbox1 p {
     margin-top: 30px;
     letter-spacing: 1.5px;
     color: white;
@@ -143,7 +153,7 @@ label {
     font-weight: 600;
 }
 
-.home-box1 h2 {
+.home-textbox1 h2 {
     margin-top: 10px;
     color: #d75758;
     font-size: 3.5rem;
@@ -151,18 +161,19 @@ label {
     text-transform: capitalize;
 }
 
-.home-box2 {
+.home-textbox2 {
     height: 380px;
     float: right;
+    position: relative;
 }
 
-.home-box2 h2 {
+.home-textbox2 h2 {
     color: white;
     text-transform: uppercase;
     font-size: 3rem;
 }
 
-.home-box2 h1 {
+.home-textbox2 h1 {
     margin-top: 10px;
     padding: 20px 25px 30px 25px;
     color: white;
@@ -173,7 +184,7 @@ label {
     font-weight: 700;
 }
 
-/* HOME-BOX2 CONTENT / Styling of text. */
+/* HOME-TEXTBOX2 CONTENT / Styling of text. */
 
 .name {
     text-transform: capitalize;
@@ -186,7 +197,7 @@ label {
 /* DISCOVER SECTION */
 
 .discover-section {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(/images/background-2462432_1920-min.jpg);
     display: flex;
     flex-direction: column;
@@ -284,22 +295,37 @@ label {
 
     /* HOME-PAGE RESPONSIVE MODE */
 
-    .home-section {
+    .home-container1,
+    .home-container2 {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
-    .home-box1,
-    .home-box2 {
+    .home-textbox1,
+    .home-textbox2 {
         width: 380px;
     }
 
-    .home-box1 {
-        height: 200px;
+    .home-textbox1 {
+        height: 100%;
     }
-    .home-box2 {
+    .home-textbox2 {
         height: 380px;
+    }
+
+    .home-textbox1 p {
+        font-size: 1rem;
+    }
+    .home-textbox1 h2 {
+        font-size: 2.25rem;
+    }
+
+    .home-textbox2 h2 {
+        font-size: 2.5rem;
+    }
+    .home-textbox2 h1 {
+        margin-left: 25px;
+        font-size: 1.2rem;
     }
 }
 
@@ -344,17 +370,13 @@ label {
     .discover-container2 {
         margin: 0px;
         width: 100%;
-        height: 500px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        height: 300px;
     }
 
     .discover-textbox1,
     .discover-textbox2 {
-        width: 220px;
-        height: 270px;
+        width: 250px;
+        height: 290px;
     }
 
     .discover-container1 img,
