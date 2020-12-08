@@ -255,20 +255,16 @@ label {
     border-radius: 50%;
 }
 
+.discover-mobile {
+    display: none;
+}
+
 /* MEDIA QUERIES */
 
 /* HEADER MEDIA QUERY */
 
 @media only screen and (max-width: 930px) {
     /* GLOBAL CLASSES RESPONSIVE MODE */
-
-    .site-btn {
-        padding: 5px;
-        width: 150px;
-        height: 40px;
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
-    }
 
     /* NAV BAR RESPONSIVE MODE*/
 
@@ -375,24 +371,36 @@ label {
         letter-spacing: 0.2rem;
     }
 
+    .discover-section {
+        justify-content: space-evenly;
+    }
+
     .discover-container1,
     .discover-container2 {
-        margin: 0px;
+        flex-direction: column;
+        margin: 5% 0;
         width: 100%;
-        height: 300px;
+        height: 500px;
     }
 
     .discover-textbox1,
     .discover-textbox2 {
-        width: 250px;
-        height: 320px;
+        width: 360px;
+        height: auto;
+        margin-bottom: 5%;
     }
 
-    .discover-container1 img,
-    .discover-container2 img {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
+    .discover-textbox1 button,
+    .discover-textbox2 button {
+        margin: 5% 0;
+    }
+
+    .discover-mobile {
+        display: block;
+    }
+
+    .discover-img {
+        display: none;
     }
 
     .discover-textbox1 h2,
