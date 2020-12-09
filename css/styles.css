@@ -28,11 +28,10 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
     width: 200px;
-    height: 40px;
+    height: 50px;
     border-radius: 25px;
-    border: none;
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
@@ -40,7 +39,13 @@ a {
     text-transform: uppercase;
     color: whitesmoke;
     background: #01c9d6;
+    border: 3px solid #01c9d6;
     cursor: pointer;
+}
+
+.site-btn:hover {
+    background: white;
+    color: #01c9d6;
 }
 
 /* HEADER */
@@ -110,7 +115,7 @@ label {
 /* MAIN PAGE SECTION */
 
 .home-section {
-    min-height: 88vh;
+    min-height: 90vh;
     background-image: url(/images/michael-van-kerckhove-iN3xWBNHmnw-unsplash-min-min.jpg);
     background-size: cover;
     background-position: center;
@@ -375,6 +380,11 @@ a {
     font-weight: 700;
 }
 
+.footer-links a:hover,
+.footer_links-mobile a:hover {
+    color: white;
+}
+
 .footer-container2 {
     display: flex;
     flex-direction: column;
@@ -442,6 +452,10 @@ a {
     margin: 20px;
     cursor: pointer;
     color: #04dbf9;
+}
+
+.fab:hover {
+    color: white;
 }
 
 .footer_links-mobile,
@@ -598,7 +612,7 @@ a {
     .live_exhibits-textbox1,
     .live_exhibits-textbox2 {
         width: 340px;
-        height: 300px;
+        height: 320px;
         margin-bottom: 5%;
     }
 
@@ -621,7 +635,7 @@ a {
         line-height: 30px;
     }
 
-    /* FOOTER RESPONSICE MODE */
+    /* FOOTER RESPONSIVE MODE */
 
     .footer-section {
         flex-direction: column;
