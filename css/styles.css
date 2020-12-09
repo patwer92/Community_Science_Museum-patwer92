@@ -454,7 +454,8 @@ a {
 .copyright-mobile {
     text-transform: capitalize;
     font-weight: 600;
-    letter-spacing: 1px;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
 }
 
 .copyright-mobile {
@@ -570,7 +571,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     /* DISCOVER / LIVE EXHIBITS SECTION  -  RESPONSIVE MODE */
 
     .site-btn {
