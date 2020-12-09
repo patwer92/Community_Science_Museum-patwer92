@@ -15,8 +15,10 @@ body {
     margin: 0;
 }
 
+li,
 a {
     text-decoration: none;
+    list-style: none;
 }
 
 /* GLOBAL CLASSES */
@@ -109,7 +111,7 @@ label {
 /* MAIN PAGE SECTION */
 
 .home-section {
-    min-height: 90vh;
+    min-height: 88vh;
     background-image: url(/images/michael-van-kerckhove-iN3xWBNHmnw-unsplash-min-min.jpg);
     background-size: cover;
     background-position: center;
@@ -203,6 +205,8 @@ label {
 .discover-section {
     min-height: 100vh;
     background-image: url(/images/background-2462432_1920-min.jpg);
+    background-size: cover;
+    background-position: top center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,7 +215,6 @@ label {
 
 .discover-container1,
 .discover-container2 {
-    margin: 25px;
     width: 80%;
     height: auto;
     display: flex;
@@ -227,7 +230,7 @@ label {
     background: #f5f5f5;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 15px;
 }
@@ -241,7 +244,6 @@ label {
 
 .discover-textbox1 p,
 .discover-textbox2 p {
-    text-align: left;
     margin: 30px 60px;
     font-size: 1.2rem;
     line-height: 30px;
@@ -255,7 +257,206 @@ label {
     border-radius: 50%;
 }
 
-.discover-mobile {
+.discover_mobile-img {
+    display: none;
+}
+
+/* LIVE EXHIBITS SECTION */
+
+.live_exhibits-section {
+    min-height: 95vh;
+    /*background-color: #f2f2f2;*/
+    background-image: url(/images/background-2462432_1920-min.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.live_exhibits-container1,
+.live_exhibits-container2 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.live_exhibits-container1 img,
+.live_exhibits-container2 img {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.live_exhibits-textbox1,
+.live_exhibits-textbox2 {
+    width: 600px;
+    height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.live_exhibits-textbox1 h3,
+.live_exhibits-textbox2 h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #d75758;
+}
+
+.live_exhibits-textbox1 p,
+.live_exhibits-textbox2 p {
+    margin: 30px 60px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.live_exhibits_mobile-img {
+    display: none;
+}
+
+/* FOOTER */
+
+.footer-section {
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-container1,
+.footer-container2,
+.footer-container3 {
+    width: 33.33%;
+}
+
+.footer-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #04dbf9, #da7b7d);
+}
+
+.footer-links {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.footer-links li,
+a {
+    text-transform: uppercase;
+    line-height: 30px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer_links-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_links-mobile li,
+a {
+    margin-right: 12px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #da7b7d, #cf454d);
+}
+
+.footer-logobox,
+.footer_logobox-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 120px;
+    width: 120px;
+    display: flex;
+}
+
+.footer-logotext {
+    font-family: oswald, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logotext span {
+    margin-left: 10px;
+    color: black;
+    letter-spacing: 0;
+    display: block;
+}
+
+.footer-container3 {
+    background-image: linear-gradient(to right, #cf454d, #3c022e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media-box h4 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.fab {
+    font-size: 3rem;
+    margin: 20px;
+    cursor: pointer;
+    color: #04dbf9;
+}
+
+.footer_links-mobile,
+.footer_logobox-mobile {
+    display: none;
+}
+
+.copyright,
+.copyright-mobile {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.copyright-mobile {
     display: none;
 }
 
@@ -334,28 +535,36 @@ label {
     }
 }
 
-/* DISCOVER PAGE RESPONSIVE MODE */
-
 @media only screen and (max-width: 1200px) {
+    /* DISCOVER SECTION / LIVE EXHIBITS SECTION RESPONSIVE MODE */
+
     .discover-textbox1,
-    .discover-textbox2 {
-        width: 360px;
+    .discover-textbox2,
+    .live_exhibits-textbox1,
+    .live_exhibits-textbox2 {
+        width: 380px;
         height: 320px;
     }
 
     .discover-container1 img,
-    .discover-container2 img {
-        height: 300px;
-        width: 300px;
+    .discover-container2 img,
+    .live_exhibits-container1 img,
+    .live_exhibits-container2 img {
+        height: 360px;
+        width: 360px;
     }
 
     .discover-textbox1 h2,
-    .discover-textbox2 h2 {
+    .discover-textbox2 h2,
+    .live_exhibits-textbox1 h3,
+    .live_exhibits-textbox2 h3 {
         font-size: 2rem;
     }
 
     .discover-textbox1 p,
-    .discover-textbox2 p {
+    .discover-textbox2 p,
+    .live_exhibits-textbox1 p,
+    .live_exhibits-textbox2 p {
         margin: 25px 40px;
         font-size: 1.2rem;
         line-height: 25px;
@@ -363,6 +572,8 @@ label {
 }
 
 @media only screen and (max-width: 800px) {
+    /* DISCOVER / LIVE EXHIBITS SECTION  -  RESPONSIVE MODE */
+
     .site-btn {
         padding: 5px;
         width: 150px;
@@ -376,36 +587,80 @@ label {
     }
 
     .discover-container1,
-    .discover-container2 {
+    .discover-container2,
+    .live_exhibits-container1,
+    .live_exhibits-container2 {
+        margin: 10% 0;
         flex-direction: column;
-        margin: 5% 0;
         width: 100%;
         height: 600px;
     }
 
     .discover-textbox1,
-    .discover-textbox2 {
+    .discover-textbox2,
+    .live_exhibits-textbox1,
+    .live_exhibits-textbox2 {
         width: 360px;
-        height: 200px;
+        height: 270px;
+        margin-bottom: 5%;
     }
 
-    .discover-mobile {
+    .discover_mobile-img,
+    .live_exhibits_mobile-img {
         display: block;
     }
 
-    .discover-img {
+    .discover-img,
+    .live_exhibits-img {
         display: none;
     }
 
-    .discover-textbox1 h2,
-    .discover-textbox2 h2 {
-        font-size: 1.2rem;
-    }
-
     .discover-textbox1 p,
-    .discover-textbox2 p {
+    .discover-textbox2 p,
+    .live_exhibits-textbox1 p,
+    .live_exhibits-textbox2 p {
         margin: 15px 15px;
         font-size: 0.9rem;
         line-height: 25px;
+    }
+
+    /* FOOTER RESPONSICE MODE */
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-container1,
+    .footer-container2,
+    .footer-container3 {
+        width: 100%;
+        background-image: linear-gradient(to right, #ca8a93, #d14850);
+    }
+
+    .footer-container2 {
+        height: 400px;
+        justify-content: center;
+    }
+
+    .footer-links,
+    .footer-logobox {
+        display: none;
+    }
+
+    .footer_links-mobile,
+    .footer_logobox-mobile {
+        display: flex;
+    }
+
+    .social_media-box {
+        justify-content: space-evenly;
+    }
+
+    .copyright-mobile {
+        display: block;
+    }
+
+    .copyright {
+        display: none;
     }
 }
