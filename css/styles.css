@@ -252,8 +252,8 @@ label {
 
 .discover-container1 img,
 .discover-container2 img {
-    height: 450px;
-    width: 450px;
+    height: 420px;
+    width: 420px;
     border-radius: 50%;
 }
 
@@ -454,6 +454,7 @@ a {
 .copyright-mobile {
     text-transform: capitalize;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .copyright-mobile {
@@ -465,8 +466,6 @@ a {
 /* HEADER MEDIA QUERY */
 
 @media only screen and (max-width: 930px) {
-    /* GLOBAL CLASSES RESPONSIVE MODE */
-
     /* NAV BAR RESPONSIVE MODE*/
 
     label {
@@ -550,8 +549,8 @@ a {
     .discover-container2 img,
     .live_exhibits-container1 img,
     .live_exhibits-container2 img {
-        height: 360px;
-        width: 360px;
+        height: 350px;
+        width: 350px;
     }
 
     .discover-textbox1 h2,
@@ -578,7 +577,7 @@ a {
         padding: 5px;
         width: 150px;
         height: 40px;
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         letter-spacing: 0.2rem;
     }
 
@@ -593,15 +592,15 @@ a {
         margin: 10% 0;
         flex-direction: column;
         width: 100%;
-        height: 600px;
+        height: 700px;
     }
 
     .discover-textbox1,
     .discover-textbox2,
     .live_exhibits-textbox1,
     .live_exhibits-textbox2 {
-        width: 360px;
-        height: 270px;
+        width: 380px;
+        height: 330px;
         margin-bottom: 5%;
     }
 
@@ -620,7 +619,7 @@ a {
     .live_exhibits-textbox1 p,
     .live_exhibits-textbox2 p {
         margin: 15px 15px;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         line-height: 25px;
     }
 
@@ -658,6 +657,8 @@ a {
 
     .copyright-mobile {
         display: block;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
     }
 
     .copyright {
