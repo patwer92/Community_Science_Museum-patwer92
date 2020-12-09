@@ -508,7 +508,7 @@ a {
 
     .home-textbox1,
     .home-textbox2 {
-        width: 380px;
+        width: 340px;
     }
 
     .home-textbox1 {
@@ -599,7 +599,7 @@ a {
     .discover-textbox2,
     .live_exhibits-textbox1,
     .live_exhibits-textbox2 {
-        width: 380px;
+        width: 340px;
         height: 300px;
         margin-bottom: 5%;
     }
@@ -620,7 +620,7 @@ a {
     .live_exhibits-textbox2 p {
         margin: 15px 15px;
         font-size: 1.2rem;
-        line-height: 25px;
+        line-height: 30px;
     }
 
     /* FOOTER RESPONSICE MODE */
