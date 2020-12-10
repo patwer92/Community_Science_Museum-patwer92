@@ -126,8 +126,6 @@ label {
     min-height: 90vh;
     display: flex;
     flex-direction: column;
-
-    
 }
 
 .exhibitions-container1 {
@@ -157,9 +155,9 @@ label {
 }
 
 .exhibitions-textbox {
-    margin-right: 20px;
+    margin-right: 30px;
     width: 300px;
-    height: 380px;
+    height: 450px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -171,13 +169,14 @@ label {
 
 .exhibitions-textbox h2 {
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    color: #d75758;
 }
 .exhibitions-textbox h1 {
-    margin: 0 40px;
+    margin: 0 20px;
     font-size: 1.2rem;
     line-height: 30px;
     font-weight: 600;
@@ -186,7 +185,6 @@ label {
 .exhibitions-container2 {
     width: 100%;
     min-height: 30vh;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,24 +224,73 @@ label {
 .cosmology-section {
     min-height: 100vh;
     background-image: linear-gradient(to right, #01CCDA, #016d7e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cosmology-banner {
     width: 100%;
-    min-height: 35vh;
-    background-image: url(/images/celso-405219-min.jpg);
+    min-height: 30vh;
+    background-image: url(/images/richard-gatley-oxgK2f_rxDc-unsplash.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .cosmology-banner h3 {
-    margin: 20px 0;
+    margin: 70px 0;
     color: whitesmoke;
-    font-size: 4rem;
+    font-size: 5rem;
     text-transform: uppercase;
+}
+
+.cosmology-container1,
+.cosmology-container2 {
+    margin-top: 15px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cosmology-container1 img,
+.cosmology-container2 img {
+    height: 320px;
+    width: 360px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.cosmology-textbox1,
+.cosmology-textbox2 {
+    width: 560px;
+    height: 320px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cosmology-textbox1 h3,
+.cosmology-textbox2 h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #d75758;
+}
+
+.cosmology-textbox1 p,
+.cosmology-textbox2 p {
+    margin: 0px 50px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
 }
 
 

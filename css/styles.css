@@ -253,8 +253,8 @@ label {
 
 .discover-container1 img,
 .discover-container2 img {
-    height: 420px;
-    width: 420px;
+    height: 410px;
+    width: 450px;
     border-radius: 50%;
 }
 
@@ -288,7 +288,7 @@ label {
 
 .live_exhibits-container1 img,
 .live_exhibits-container2 img {
-    height: 450px;
+    height: 410px;
     width: 450px;
     border-radius: 50%;
 }
@@ -354,7 +354,7 @@ label {
 .footer-links a {
     text-transform: uppercase;
     line-height: 30px;
-    color: white;
+    color: black;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -381,6 +381,7 @@ label {
     color: white;
 }
 
+.footer-links span:hover,
 .footer_links-mobile span:hover {
     color: #13da13;
 }
@@ -561,8 +562,8 @@ label {
     .discover-container2 img,
     .live_exhibits-container1 img,
     .live_exhibits-container2 img {
-        height: 350px;
-        width: 350px;
+        height: 320px;
+        width: 360px;
     }
 
     .discover-textbox1 h2,
