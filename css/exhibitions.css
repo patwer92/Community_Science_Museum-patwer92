@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html {
     width: 100%;
     height: 100%;
-    margin: 0;
     font-size: 62.5%;
 }
 
@@ -22,6 +22,12 @@ a {
 }
 
 /* GLOBAL CLASSES */
+
+.text-background {
+    background: rgba(0, 0, 0, 0.8);
+    width: auto;
+    height: auto;
+}
 
 .capital-text {
     text-transform: capitalize;
@@ -50,14 +56,14 @@ a {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: whitesmoke;
-    background:  #1058df;
-    border: 3px solid #1058df;
+    background: #01c9d6;
+    border: 3px solid #01c9d6;
     cursor: pointer;
 }
 
 .site-btn:hover {
     background: whitesmoke;
-    color: #1058df;
+    color: #01c9d6;
 }
 
 /* HEADER */
@@ -141,21 +147,21 @@ label {
 }
 
 .exhibitions-intro {
-    width: 600px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .exhibitions-intro h2 {
-    font-size: 5.5rem;
+    font-size: 5rem;
     text-transform: uppercase;
     color: whitesmoke;
+    letter-spacing: 0.25rem;
 }
 
 .exhibitions-textbox {
-    margin-right: 30px;
+    margin-right: 20px;
     width: 300px;
     height: 450px;
     border-radius: 15px;
@@ -173,7 +179,7 @@ label {
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    color: #d75758;
+    color: #01c9d6;
 }
 .exhibitions-textbox h1 {
     margin: 0 20px;
@@ -216,7 +222,7 @@ label {
 }
 
 .exhibitions-nav a:hover {
-    color: #1058df;
+    color: #000444;
 }
 
 /* COSMOLOGY SECTION */
@@ -236,15 +242,16 @@ label {
     background-position: center;
     background-size: cover;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
 }
 
-.cosmology-banner h3 {
-    margin: 70px 0;
+.cosmology-banner h2 {
+    margin: 0;
     color: whitesmoke;
     font-size: 5rem;
     text-transform: uppercase;
+    letter-spacing: 0.25rem;
 }
 
 .cosmology-container1,
@@ -278,11 +285,11 @@ label {
     border-radius: 15px;
 }
 
-.cosmology-textbox1 h3,
-.cosmology-textbox2 h3 {
+.cosmology-textbox1 h2,
+.cosmology-textbox2 h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #d75758;
+    color: #01c9d6;
 }
 
 .cosmology-textbox1 p,
@@ -293,6 +300,155 @@ label {
     font-weight: 600;
 }
 
+/* EVOLUTION SECTION */
+
+.evolution-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.evolution-banner {
+    width: 100%;
+    min-height: 30vh;
+    background-image: url(/images/suzanne-d-williams-VMKBFR6r_jg-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evolution-banner h2 {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.evolution-container1,
+.evolution-container2 {
+    margin-top: 15px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.evolution-container1 img,
+.evolution-container2 img {
+    height: 320px;
+    width: 360px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.evolution-textbox1,
+.evolution-textbox2 {
+    width: 560px;
+    height: 320px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.evolution-textbox1 h2,
+.evolution-textbox2 h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #01c9d6;
+}
+
+.evolution-textbox1 p,
+.evolution-textbox2 p {
+    margin: 0px 50px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* BIOLOGY AND MEDICINE SECTION */
+
+.biology_medicine-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.biology_medicine-banner {
+    width: 100%;
+    min-height: 30vh;
+    background-image: url(/images/dna-3656587_1920-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.biology_medicine-banner h2 {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.biology_medicine-container1,
+.biology_medicine-container2 {
+    margin-top: 15px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.biology_medicine-container1 img,
+.biology_medicine-container2 img {
+    height: 320px;
+    width: 360px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.biology_medicine-textbox1,
+.biology_medicine-textbox2 {
+    width: 560px;
+    height: 320px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.biology_medicine-textbox1 h2,
+.biology_medicine-textbox2 h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #01c9d6;
+}
+
+.biology_medicine-textbox1 p,
+.biology_medicine-textbox2 p {
+    margin: 0px 50px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
 
 
 
