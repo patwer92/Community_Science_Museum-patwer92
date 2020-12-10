@@ -12,6 +12,7 @@ html {
 body {
     font-family: "Open-sans", sans-serif;
     margin: 0;
+    background-image: linear-gradient(to right, #01CCDA, #016d7e);
 }
 
 li,
@@ -22,29 +23,47 @@ a {
 
 /* GLOBAL CLASSES */
 
+.capital-text {
+    text-transform: capitalize;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.green-text {
+    color: #13da13;
+}
+
 .site-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 15px;
     width: 200px;
-    height: 40px;
+    height: 50px;
     border-radius: 25px;
-    border: none;
     font-family: "Open Sans", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: whitesmoke;
-    background: #01c9d6;
+    background:  #1058df;
+    border: 3px solid #1058df;
     cursor: pointer;
+}
+
+.site-btn:hover {
+    background: whitesmoke;
+    color: #1058df;
 }
 
 /* HEADER */
 
 .nav {
+    background: whitesmoke;
     margin-top: 0;
     text-align: right;
     min-height: 10vh;
@@ -59,7 +78,7 @@ a {
 
 .logo-text {
     margin-top: 30px;
-    font-family: oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     float: left;
     color: #ff8c1a;
     text-align: center;
@@ -75,8 +94,7 @@ a {
 
 /* HEADER - NAVIGATION */
 
-.menu {
-}
+
 
 .menu a {
     clear: right;
@@ -84,13 +102,9 @@ a {
     text-decoration: none;
     color: black;
     margin: 0 30px;
-    line-height: 70px;
+    line-height: 90px;
     font-size: 1rem;
     font-weight: 600;
-}
-
-.menu span {
-    color: #54d17a;
 }
 
 label {
@@ -105,3 +119,164 @@ label {
 #toggle {
     display: none;
 }
+
+/* EXHIBITIONS SECTION */
+
+.exhibitions-section {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.exhibitions-container1 {
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(/images/pexels-thisisengineering-3913025-sideways.jpg);
+    background-size: cover;
+    background-position: center right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exhibitions-intro {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exhibitions-intro h2 {
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.exhibitions-textbox {
+    margin-right: 20px;
+    width: 300px;
+    height: 380px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: whitesmoke;
+}
+
+.exhibitions-textbox h2 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.exhibitions-textbox h1 {
+    margin: 0 40px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.exhibitions-container2 {
+    width: 100%;
+    min-height: 30vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.exhibitions-nav {
+    width: 20%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.exhibitions-nav img {
+    border-radius: 50%;
+    background-size: cover;
+    width: 180px;
+    height: 170px;
+}
+
+.exhibitions-nav a {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.exhibitions-nav a:hover {
+    color: #1058df;
+}
+
+/* COSMOLOGY SECTION */
+
+.cosmology-section {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #01CCDA, #016d7e);
+}
+
+.cosmology-banner {
+    width: 100%;
+    min-height: 35vh;
+    background-image: url(/images/celso-405219-min.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cosmology-banner h3 {
+    margin: 20px 0;
+    color: whitesmoke;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 930px) {
+    /* HEADER / NAV BAR RESPONSIVE MODE */
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0;
+    }
+
+    .menu a:hover {
+        background-color: #f3bf8b;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }

@@ -23,8 +23,16 @@ a {
 
 /* GLOBAL CLASSES */
 
+.capital-text {
+    text-transform: capitalize;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
 .green-text {
-    color: #12702f;
+    color: #13da13;
 }
 
 .site-btn {
@@ -69,7 +77,7 @@ a {
 
 .logo-text {
     margin-top: 30px;
-    font-family: oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     float: left;
     color: #ff8c1a;
     text-align: center;
@@ -85,25 +93,16 @@ a {
 
 /* HEADER - NAVIGATION */
 
-.menu {
-}
-
 .menu a {
     clear: right;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
     margin: 0 30px;
-    line-height: 70px;
+    line-height: 90px;
     font-size: 1rem;
     font-weight: 600;
 }
-
-/*
-.menu span {
-    color: #54d17a;
-}
-*/
 
 label {
     margin: 0 30px 0 0;
@@ -201,14 +200,6 @@ label {
 }
 
 /* HOME-TEXTBOX2 CONTENT / Styling of text. */
-
-.name {
-    text-transform: capitalize;
-}
-
-.italic-text {
-    font-style: italic;
-}
 
 /* DISCOVER SECTION */
 
@@ -360,8 +351,7 @@ label {
     width: 50%;
 }
 
-.footer-links li,
-a {
+.footer-links a {
     text-transform: uppercase;
     line-height: 30px;
     color: white;
@@ -376,9 +366,9 @@ a {
     align-items: center;
 }
 
-.footer_links-mobile li,
-a {
-    margin-right: 12px;
+.footer_links-mobile a {
+    text-align: center;
+    margin-right: 35px;
     text-transform: uppercase;
     line-height: 30px;
     color: black;
@@ -389,6 +379,10 @@ a {
 .footer-links a:hover,
 .footer_links-mobile a:hover {
     color: white;
+}
+
+.footer_links-mobile span:hover {
+    color: #13da13;
 }
 
 .footer-container2 {
