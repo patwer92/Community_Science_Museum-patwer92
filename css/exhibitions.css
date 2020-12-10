@@ -11,8 +11,9 @@ html {
 
 body {
     font-family: "Open-sans", sans-serif;
-    margin: 0;
-    background-image: linear-gradient(to right, #01CCDA, #016d7e);
+    margin: 0; 
+    /*background-image: linear-gradient(to right, #01c9d6,#007587); */ 
+    background: #0192a5;
 }
 
 li,
@@ -27,6 +28,10 @@ a {
     background: rgba(0, 0, 0, 0.8);
     width: auto;
     height: auto;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
 }
 
 .capital-text {
@@ -56,14 +61,14 @@ a {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: whitesmoke;
-    background: #01c9d6;
-    border: 3px solid #01c9d6;
+    background: #0192a5;
+    border: 3px solid #0192a5;
     cursor: pointer;
 }
 
 .site-btn:hover {
     background: whitesmoke;
-    color: #01c9d6;
+    color: #0192a5;
 }
 
 /* HEADER */
@@ -132,14 +137,15 @@ label {
     min-height: 90vh;
     display: flex;
     flex-direction: column;
+    background-image: url(/images/pexels-thisisengineering-3913025.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-position-y: -220px;
 }
 
 .exhibitions-container1 {
     width: 100%;
     min-height: 60vh;
-    background-image: url(/images/pexels-thisisengineering-3913025-sideways.jpg);
-    background-size: cover;
-    background-position: center right;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -179,7 +185,7 @@ label {
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    color: #01c9d6;
+    color: #0192a5;
 }
 .exhibitions-textbox h1 {
     margin: 0 20px;
@@ -198,6 +204,7 @@ label {
 }
 
 .exhibitions-nav {
+    opacity: 100%;
     width: 20%;
     min-height: 30vh;
     display: flex;
@@ -215,21 +222,20 @@ label {
 
 .exhibitions-nav a {
     font-size: 1.5rem;
-    color: white;
+    color: black;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 0.1rem;
 }
 
 .exhibitions-nav a:hover {
-    color: #000444;
+    color: whitesmoke;
 }
 
 /* COSMOLOGY SECTION */
 
 .cosmology-section {
     min-height: 100vh;
-    background-image: linear-gradient(to right, #01CCDA, #016d7e);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +295,7 @@ label {
 .cosmology-textbox2 h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #01c9d6;
+    color: #0192a5;
 }
 
 .cosmology-textbox1 p,
@@ -364,7 +370,7 @@ label {
 .evolution-textbox2 h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #01c9d6;
+    color: #0192a5;
 }
 
 .evolution-textbox1 p,
@@ -439,7 +445,7 @@ label {
 .biology_medicine-textbox2 h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #01c9d6;
+    color: #0192a5;
 }
 
 .biology_medicine-textbox1 p,
@@ -449,6 +455,157 @@ label {
     line-height: 30px;
     font-weight: 600;
 }
+
+/* ROBOTICS AND AI SECTION */
+
+.robotics_ai-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.robotics_ai-banner {
+    width: 100%;
+    min-height: 30vh;
+    background-image: url(/images/pexels-thisisengineering-3913025-sideways.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robotics_ai-banner h2 {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.robotics_ai-container1,
+.robotics_ai-container2 {
+    margin-top: 15px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.robotics_ai-container1 img,
+.robotics_ai-container2 img {
+    height: 320px;
+    width: 360px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.robotics_ai-textbox1,
+.robotics_ai-textbox2 {
+    width: 560px;
+    height: 320px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.robotics_ai-textbox1 h2,
+.robotics_ai-textbox2 h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #01c9d6;
+}
+
+.robotics_ai-textbox1 p,
+.robotics_ai-textbox2 p {
+    margin: 0px 50px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* ECOLOGY SECTION */
+
+.ecology-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ecology-banner {
+    width: 100%;
+    min-height: 30vh;
+    background-image: url(/images/shahadat-rahman-7NgccS8ukSY-unsplash-min.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecology-banner h2 {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+}
+
+.ecology-container1,
+.ecology-container2 {
+    margin-top: 15px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ecology-container1 img,
+.ecology-container2 img {
+    height: 320px;
+    width: 360px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.ecology-textbox1,
+.ecology-textbox2 {
+    width: 560px;
+    height: 320px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.ecology-textbox1 h2,
+.ecology-textbox2 h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #0192a5;
+}
+
+.ecology-textbox1 p,
+.ecology-textbox2 p {
+    margin: 0px 50px;
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
 
 
 
