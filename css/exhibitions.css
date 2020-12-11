@@ -14,7 +14,7 @@ body {
     font-family: "Open-sans", sans-serif;
     margin: 0;
     /*background-image: linear-gradient(to right, #01c9d6,#007587); */
-    background: #0192a5;
+    background: #016c80;
 }
 
 li,
@@ -863,6 +863,10 @@ label {
 
 @media only screen and (max-width: 930px) {
     /* HEADER/NAV BAR RESPONSIVE MODE */
+
+    .nav {
+        height: 12.25vh;
+    }
 
     label {
         display: block;
