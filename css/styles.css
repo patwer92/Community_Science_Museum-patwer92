@@ -558,13 +558,13 @@ label {
     .live_exhibits-container1 img,
     .live_exhibits-container2 img {
         height: 320px;
-        width: 360px;
+        width: 320px;
     }
 
     .discover-textbox1 h2,
     .discover-textbox2 h2,
-    .live_exhibits-textbox1 h3,
-    .live_exhibits-textbox2 h3 {
+    .live_exhibits-textbox1 h2,
+    .live_exhibits-textbox2 h2 {
         font-size: 2rem;
     }
 
@@ -627,8 +627,6 @@ label {
     .live_exhibits-textbox1 p,
     .live_exhibits-textbox2 p {
         margin: 15px 15px;
-        font-size: 1.2rem;
-        line-height: 30px;
     }
 
     /* FOOTER RESPONSIVE MODE */
