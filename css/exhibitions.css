@@ -12,8 +12,8 @@ html {
 
 body {
     font-family: "Open-sans", sans-serif;
-    margin: 0; 
-    /*background-image: linear-gradient(to right, #01c9d6,#007587); */ 
+    margin: 0;
+    /*background-image: linear-gradient(to right, #01c9d6,#007587); */
     background: #0192a5;
 }
 
@@ -106,8 +106,6 @@ a {
 
 /* HEADER - NAVIGATION */
 
-
-
 .menu a {
     clear: right;
     text-transform: uppercase;
@@ -141,7 +139,7 @@ label {
     background-image: url(/images/pexels-thisisengineering-3913025.jpg);
     background-size: cover;
     background-position: center top;
-    background-position-y: -220px;
+    background-position-y: -300px;
 }
 
 .exhibitions-container1 {
@@ -201,7 +199,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background: rgba(0, 0, 0, 0.8);
 }
 
 .exhibitions-nav {
@@ -229,14 +227,14 @@ label {
 
 .exhibitions-nav a {
     font-size: 1.5rem;
-    color: black;
+    color: whitesmoke;
     text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 0.1rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
 }
 
 .exhibitions-nav a:hover {
-    color: whitesmoke;
+    color: #0192a5;
 }
 
 /* COSMOLOGY SECTION */
@@ -612,16 +610,162 @@ label {
     font-weight: 600;
 }
 
+/* FOOTER */
 
+.footer-section {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
 
+.footer-container1,
+.footer-container2,
+.footer-container3 {
+    width: 33.33%;
+}
 
+.footer-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #0192a5, #0192a5);
+}
 
+.footer-links {
+    margin-left: 5%;
+    width: 50%;
+}
 
+.footer-links a {
+    text-transform: uppercase;
+    line-height: 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer_links-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_links-mobile a {
+    text-align: center;
+    margin-right: 35px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-links a:hover,
+.footer_links-mobile a:hover {
+    color: white;
+}
+
+.footer-links span:hover,
+.footer_links-mobile span:hover {
+    color: #13da13;
+}
+
+.footer-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #0192a5, #0192a5);
+}
+
+.footer-logobox,
+.footer_logobox-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 120px;
+    width: 120px;
+    display: flex;
+}
+
+.footer-logotext {
+    font-family: oswald, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logotext span {
+    margin-left: 10px;
+    color: black;
+    letter-spacing: 0;
+    display: block;
+}
+
+.footer-container3 {
+    background-image: linear-gradient(to right, #0192a5, #0192a5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media-box h4 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.fab {
+    font-size: 3rem;
+    margin: 20px;
+    cursor: pointer;
+    color: #04e9f9;
+}
+
+.fab:hover {
+    color: white;
+}
+
+.footer_links-mobile,
+.footer_logobox-mobile {
+    display: none;
+}
+
+.copyright,
+.copyright-mobile {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+}
+
+.copyright-mobile {
+    display: none;
+}
 
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 930px) {
-    /* HEADER / NAV BAR RESPONSIVE MODE */
+    /* HEADER/NAV BAR RESPONSIVE MODE */
 
     label {
         display: block;
@@ -647,3 +791,48 @@ label {
     #toggle:checked + .menu {
         display: block;
     }
+
+    /* EXHIBITION SECTION RESPONSIVE MODE */
+
+    /* FOOTER RESPONSIVE MODE */
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-container1,
+    .footer-container2,
+    .footer-container3 {
+        width: 100%;
+        background-image: linear-gradient(to right, #0192a5, #0192a5);
+    }
+
+    .footer-container2 {
+        height: 400px;
+        justify-content: center;
+    }
+
+    .footer-links,
+    .footer-logobox {
+        display: none;
+    }
+
+    .footer_links-mobile,
+    .footer_logobox-mobile {
+        display: flex;
+    }
+
+    .social_media-box {
+        justify-content: space-evenly;
+    }
+
+    .copyright-mobile {
+        display: block;
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+    }
+
+    .copyright {
+        display: none;
+    }
+}

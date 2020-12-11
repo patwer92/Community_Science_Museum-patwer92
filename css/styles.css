@@ -324,7 +324,7 @@ label {
 /* FOOTER */
 
 .footer-section {
-    min-height: auto;
+    min-height: 30vh;
     display: flex;
     flex-direction: row;
     width: 100%;
