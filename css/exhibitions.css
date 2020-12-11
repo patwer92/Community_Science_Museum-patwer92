@@ -78,7 +78,7 @@ a {
     background: whitesmoke;
     margin-top: 0;
     text-align: right;
-    min-height: 10vh;
+    min-height: 12vh;
 }
 
 .logo {
@@ -133,13 +133,14 @@ label {
 /* EXHIBITIONS SECTION */
 
 .exhibitions-section {
+    width: 100%;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
     background-image: url(/images/pexels-thisisengineering-3913025.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    background-position-y: -100px;
 }
 
 .exhibitions-container1 {
@@ -186,6 +187,7 @@ label {
     letter-spacing: 0.1rem;
     color: #0192a5;
 }
+
 .exhibitions-textbox h1 {
     margin: 0 20px;
     font-size: 1.2rem;
@@ -203,7 +205,6 @@ label {
 }
 
 .exhibitions-nav {
-    opacity: 100%;
     width: 20%;
     min-height: 30vh;
     display: flex;
@@ -235,6 +236,11 @@ label {
 
 .exhibitions-nav a:hover {
     color: #0192a5;
+}
+
+.exhibitions_mobile-container1,
+.exhibitions_mobile-container2 {
+    display: none;
 }
 
 /* COSMOLOGY SECTION */
@@ -278,8 +284,8 @@ label {
 
 .cosmology-container1 img,
 .cosmology-container2 img {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -287,7 +293,7 @@ label {
 .cosmology-textbox1,
 .cosmology-textbox2 {
     width: 560px;
-    height: 320px;
+    height: 300px;
     background: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -353,8 +359,8 @@ label {
 
 .evolution-container1 img,
 .evolution-container2 img {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -362,7 +368,7 @@ label {
 .evolution-textbox1,
 .evolution-textbox2 {
     width: 560px;
-    height: 320px;
+    height: 300px;
     background: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -428,8 +434,8 @@ label {
 
 .biology_medicine-container1 img,
 .biology_medicine-container2 img {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -437,7 +443,7 @@ label {
 .biology_medicine-textbox1,
 .biology_medicine-textbox2 {
     width: 560px;
-    height: 320px;
+    height: 300px;
     background: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -503,8 +509,8 @@ label {
 
 .robotics_ai-container1 img,
 .robotics_ai-container2 img {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -512,7 +518,7 @@ label {
 .robotics_ai-textbox1,
 .robotics_ai-textbox2 {
     width: 560px;
-    height: 320px;
+    height: 300px;
     background: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -577,8 +583,8 @@ label {
 
 .ecology-container1 img,
 .ecology-container2 img {
-    height: 320px;
-    width: 320px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -586,7 +592,7 @@ label {
 .ecology-textbox1,
 .ecology-textbox2 {
     width: 560px;
-    height: 320px;
+    height: 300px;
     background: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -608,6 +614,14 @@ label {
     font-size: 1.2rem;
     line-height: 30px;
     font-weight: 600;
+}
+
+.cosmology_mobile-img,
+.evolution_mobile-img,
+.biology_medicine_mobile-img,
+.robotics_ai_mobile-img,
+.ecology_mobile-img {
+    display: none;
 }
 
 /* FOOTER */
@@ -765,7 +779,8 @@ label {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1200px) {
-    /* EXHIBITIONS/COSMOLOGY/EVOLUTION/BIOLOGY & MEDICINE/ROBOTICS & AI/ECOLOGY SECTIONS RESPONSIVE MODE */
+    /* EXHIBITIONS, COSMOLOGY, EVOLUTION, BIOLOGY/MEDICINE, 
+    ROBOTICS/AI AND ECOLOGY SECTIONS RESPONSIVE MODE (TABLET VIEW) */
 
     .exhibitions-container1 {
         flex-direction: column;
@@ -774,6 +789,10 @@ label {
 
     .exhibitions-textbox {
         margin-right: 0;
+    }
+
+    .exhibitions-intro {
+        margin-left: 0;
     }
 
     .exhibitions-nav img {
@@ -870,7 +889,141 @@ label {
         display: block;
     }
 
-    /* EXHIBITION SECTION RESPONSIVE MODE */
+    /* EXHIBITIONS, COSMOLOGY, EVOLUTION, BIOLOGY/MEDICINE, 
+    ROBOTICS/AI AND ECOLOGY SECTIONS RESPONSIVE MODE (MOBILE VIEW) */
+
+    .site-btn {
+        padding: 5px;
+        width: 150px;
+        height: 40px;
+        font-size: 1.1rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .exhibitions-intro h2,
+    .cosmology-banner h2,
+    .evolution-banner h2,
+    .biology_medicine-banner h2,
+    .robotics_ai-banner h2,
+    .ecology-banner h2 {
+        font-size: 3rem;
+    }
+
+    .exhibitions-textbox {
+        width: 340px;
+        height: 280px;
+    }
+
+    .exhibitions-textbox h2 {
+        line-height: 30px;
+        font-size: 2rem;
+    }
+
+    .exhibitions-textbox h1 {
+        margin: 0 30px;
+        line-height: 30px;
+    }
+
+    .exhibitions-nav {
+        min-height: 15vh;
+    }
+
+    .exhibitions-nav img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .exhibitions-nav img:hover {
+        width: 120px;
+        height: 120px;
+    }
+
+    .exhibitions-nav a {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .exhibitions-container2 {
+        display: none;
+    }
+
+    .exhibitions_mobile-container1,
+    .exhibitions_mobile-container2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .cosmology-container1,
+    .cosmology-container2,
+    .evolution-container1,
+    .evolution-container2,
+    .biology_medicine-container1,
+    .biology_medicine-container2,
+    .robotics_ai-container1,
+    .robotics_ai-container2,
+    .ecology-container1,
+    .ecology-container2 {
+        margin: 10% 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cosmology-textbox1,
+    .cosmology-textbox2,
+    .evolution-textbox1,
+    .evolution-textbox2,
+    .biology_medicine-textbox1,
+    .biology_medicine-textbox2,
+    .robotics_ai-textbox1,
+    .robotics_ai-textbox2,
+    .ecology-textbox1,
+    .ecology-textbox2 {
+        width: 340px;
+        height: 320px;
+    }
+
+    .cosmology-container1 img,
+    .cosmology-container2 img,
+    .evolution-container1 img,
+    .evolution-container2 img,
+    .biology_medicine-container1 img,
+    .biology_medicine-container2 img,
+    .robotics_ai-container1 img,
+    .robotics_ai-container2 img,
+    .ecology-container1 img,
+    .ecology-container2 img {
+        margin: 20px;
+        width: 260px;
+        height: 260px;
+    }
+
+    .cosmology_mobile-img,
+    .evolution_mobile-img,
+    .biology_medicine_mobile-img,
+    .robotics_ai_mobile-img,
+    .ecology_mobile-img {
+        display: block;
+    }
+
+    .cosmology-img,
+    .evolution-img,
+    .biology_medicine-img,
+    .robotics_ai-img,
+    .ecology-img {
+        display: none;
+    }
+
+    .cosmology-textbox1 h2,
+    .evolution-textbox1 h2,
+    .biology_medicine-textbox1 h2,
+    .robotics_ai-textbox1 h2,
+    .ecology-textbox1 h2 {
+        font-size: 1.8rem;
+    }
 
     /* FOOTER RESPONSIVE MODE */
 
