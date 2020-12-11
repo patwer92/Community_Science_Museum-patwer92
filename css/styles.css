@@ -446,11 +446,11 @@ label {
     font-size: 3rem;
     margin: 20px;
     cursor: pointer;
-    color: #04dbf9;
+    color: whitesmoke;
 }
 
 .fab:hover {
-    color: white;
+    color: #04dbf9;
 }
 
 .footer_links-mobile,

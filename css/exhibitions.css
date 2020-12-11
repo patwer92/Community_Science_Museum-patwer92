@@ -141,7 +141,7 @@ label {
 
 .exhibitions-container1 {
     width: 100%;
-    min-height: 60vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -193,7 +193,7 @@ label {
 
 .exhibitions-container2 {
     width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +202,7 @@ label {
 
 .exhibitions-nav {
     width: 20%;
-    min-height: 30vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -749,11 +749,11 @@ label {
     font-size: 3rem;
     margin: 20px;
     cursor: pointer;
-    color: #04e9f9;
+    color: whitesmoke;
 }
 
 .fab:hover {
-    color: white;
+    color: #04e9f9;
 }
 
 .footer_links-mobile,
@@ -818,20 +818,6 @@ label {
     .ecology-textbox2 {
         width: 330px;
         height: 310px;
-    }
-
-    .cosmology-container1 img,
-    .cosmology-container2 img,
-    .evolution-container1 img,
-    .evolution-container2 img,
-    .biology_medicine-container1 img,
-    .biology_medicine-container2 img,
-    .robotics_ai-container1 img,
-    .robotics_ai-container2 img,
-    .ecology-container1 img,
-    .ecology-container2 img {
-        width: 280px;
-        height: 280px;
     }
 
     .cosmology-textbox1 h2,
@@ -950,7 +936,7 @@ label {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        height: 20vh;
+        min-height: 20vh;
         background: rgba(0, 0, 0, 0.8);
     }
 
@@ -994,8 +980,6 @@ label {
     .ecology-container1 img,
     .ecology-container2 img {
         margin: 20px;
-        width: 260px;
-        height: 260px;
     }
 
     .cosmology_mobile-img,
