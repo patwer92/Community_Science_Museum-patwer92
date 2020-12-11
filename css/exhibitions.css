@@ -26,9 +26,7 @@ a {
 /* GLOBAL CLASSES */
 
 .text-background {
-    background: rgba(0, 0, 0, 0.8);
-    width: auto;
-    height: auto;
+    text-shadow: 2px 2px #000000;
 }
 
 .uppercase-text {
@@ -154,7 +152,7 @@ label {
     margin-left: 20px;
     width: auto;
     height: auto;
-    background: rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px #000000;
 }
 
 .exhibitions-intro h2 {
@@ -262,7 +260,7 @@ label {
 }
 
 .cosmology-banner h2 {
-    margin: 0;
+    margin-top: -30px;
     color: whitesmoke;
     font-size: 5rem;
     text-transform: uppercase;
