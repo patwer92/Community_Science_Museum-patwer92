@@ -667,7 +667,7 @@ label {
     text-align: center;
     margin-right: 35px;
     text-transform: uppercase;
-    line-height: 30px;
+    line-height: 40px;
     color: black;
     font-size: 1.2rem;
     font-weight: 700;
@@ -732,7 +732,7 @@ label {
 }
 
 .social_media-box {
-    height: 100%;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -763,8 +763,6 @@ label {
 
 .copyright,
 .copyright-mobile {
-    margin-top: 50px;
-    margin-bottom: 5px;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 0.8rem;
@@ -1011,7 +1009,6 @@ label {
 
     .footer-section {
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .footer-container1,
@@ -1022,7 +1019,7 @@ label {
     }
 
     .footer-container2 {
-        height: 400px;
+        height: 530px;
         justify-content: center;
     }
 
@@ -1037,10 +1034,11 @@ label {
     }
 
     .social_media-box {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .copyright-mobile {
+        margin-bottom: 8px;
         display: block;
         font-size: 0.8rem;
         letter-spacing: 0.5px;

@@ -429,7 +429,7 @@ label {
 }
 
 .social_media-box {
-    height: 100%;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -460,8 +460,6 @@ label {
 
 .copyright,
 .copyright-mobile {
-    margin-top: 50px;
-    margin-bottom: 5px;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 0.8rem;
@@ -643,7 +641,7 @@ label {
     }
 
     .footer-container2 {
-        height: 400px;
+        height: 500px;
         justify-content: center;
     }
 
@@ -658,7 +656,7 @@ label {
     }
 
     .social_media-box {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .copyright-mobile {
