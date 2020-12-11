@@ -460,10 +460,11 @@ label {
 
 .copyright,
 .copyright-mobile {
+    margin-top: 50px;
+    margin-bottom: 5px;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 0.8rem;
-    letter-spacing: 0px;
 }
 
 .copyright-mobile {
