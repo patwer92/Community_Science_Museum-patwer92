@@ -139,7 +139,7 @@ label {
     background-image: url(/images/pexels-thisisengineering-3913025.jpg);
     background-size: cover;
     background-position: center top;
-    background-position-y: -300px;
+    background-position-y: -100px;
 }
 
 .exhibitions-container1 {
@@ -167,8 +167,8 @@ label {
 
 .exhibitions-textbox {
     margin-right: 20px;
-    width: 300px;
-    height: 450px;
+    width: 390px;
+    height: 320px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -215,14 +215,14 @@ label {
 .exhibitions-nav img {
     border-radius: 50%;
     background-size: cover;
-    width: 180px;
+    width: 170px;
     height: 170px;
     transition: width 1s, height 1s;
 }
 
 .exhibitions-nav img:hover {
-    width: 250px;
-    height: 240px;
+    width: 220px;
+    height: 220px;
 }
 
 .exhibitions-nav a {
@@ -267,7 +267,7 @@ label {
 
 .cosmology-container1,
 .cosmology-container2 {
-    margin-top: 15px;
+    margin: auto;
     width: 80%;
     height: auto;
     display: flex;
@@ -279,7 +279,7 @@ label {
 .cosmology-container1 img,
 .cosmology-container2 img {
     height: 320px;
-    width: 360px;
+    width: 320px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -354,7 +354,7 @@ label {
 .evolution-container1 img,
 .evolution-container2 img {
     height: 320px;
-    width: 360px;
+    width: 320px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -429,7 +429,7 @@ label {
 .biology_medicine-container1 img,
 .biology_medicine-container2 img {
     height: 320px;
-    width: 360px;
+    width: 320px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -504,7 +504,7 @@ label {
 .robotics_ai-container1 img,
 .robotics_ai-container2 img {
     height: 320px;
-    width: 360px;
+    width: 320px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -525,7 +525,7 @@ label {
 .robotics_ai-textbox2 h2 {
     text-transform: uppercase;
     font-size: 2.5rem;
-    color: #01c9d6;
+    color: #0192a5;
 }
 
 .robotics_ai-textbox1 p,
@@ -578,7 +578,7 @@ label {
 .ecology-container1 img,
 .ecology-container2 img {
     height: 320px;
-    width: 360px;
+    width: 320px;
     border-radius: 50%;
     background-size: cover;
 }
@@ -764,6 +764,84 @@ label {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 1200px) {
+    /* EXHIBITIONS/COSMOLOGY/EVOLUTION/BIOLOGY & MEDICINE/ROBOTICS & AI/ECOLOGY SECTIONS RESPONSIVE MODE */
+
+    .exhibitions-container1 {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .exhibitions-textbox {
+        margin-right: 0;
+    }
+
+    .exhibitions-nav img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .exhibitions-nav img:hover {
+        width: 170px;
+        height: 170px;
+    }
+
+    .exhibitions-nav a {
+        font-size: 1rem;
+    }
+
+    .cosmology-textbox1,
+    .cosmology-textbox2,
+    .evolution-textbox1,
+    .evolution-textbox2,
+    .biology_medicine-textbox1,
+    .biology_medicine-textbox2,
+    .robotics_ai-textbox1,
+    .robotics_ai-textbox2,
+    .ecology-textbox1,
+    .ecology-textbox2 {
+        width: 330px;
+        height: 310px;
+    }
+
+    .cosmology-container1 img,
+    .cosmology-container2 img,
+    .evolution-container1 img,
+    .evolution-container2 img,
+    .biology_medicine-container1 img,
+    .biology_medicine-container2 img,
+    .robotics_ai-container1 img,
+    .robotics_ai-container2 img,
+    .ecology-container1 img,
+    .ecology-container2 img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .cosmology-textbox1 h2,
+    .evolution-textbox1 h2,
+    .biology_medicine-textbox1 h2,
+    .robotics_ai-textbox1 h2,
+    .ecology-textbox1 h2 {
+        font-size: 2rem;
+    }
+
+    .cosmology-textbox1 p,
+    .cosmology-textbox2 p,
+    .evolution-textbox1 p,
+    .evolution-textbox2 p,
+    .biology_medicine-textbox1 p,
+    .biology_medicine-textbox2 p,
+    .robotics_ai-textbox1 p,
+    .robotics_ai-textbox2 p,
+    .ecology-textbox1 p,
+    .ecology-textbox2 p {
+        margin: 25px 35px;
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+}
+
 @media only screen and (max-width: 930px) {
     /* HEADER/NAV BAR RESPONSIVE MODE */
 
@@ -798,6 +876,7 @@ label {
 
     .footer-section {
         flex-direction: column;
+        justify-content: space-between;
     }
 
     .footer-container1,

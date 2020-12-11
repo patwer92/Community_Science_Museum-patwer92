@@ -196,8 +196,6 @@ label {
     font-weight: 600;
 }
 
-/* HOME-TEXTBOX2 CONTENT / Styling of text. */
-
 /* DISCOVER SECTION */
 
 .discover-section {
@@ -251,7 +249,7 @@ label {
 .discover-container1 img,
 .discover-container2 img {
     height: 410px;
-    width: 450px;
+    width: 410px;
     border-radius: 50%;
 }
 
@@ -286,7 +284,7 @@ label {
 .live_exhibits-container1 img,
 .live_exhibits-container2 img {
     height: 410px;
-    width: 450px;
+    width: 410px;
     border-radius: 50%;
 }
 
