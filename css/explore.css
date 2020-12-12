@@ -177,7 +177,7 @@ label {
 .img-box {
     width: 590px;
     background: #0c929e;
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,12 +187,11 @@ label {
 }
 
 .img-box img {
-    width: 100%;
-    height: 600px;
+    width: 350px;
+    height: 350px;
     background-size: cover;
     background-position: center;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 50%;
 }
 
 .text-box {
