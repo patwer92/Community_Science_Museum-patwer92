@@ -640,7 +640,7 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, #0192a5, #0192a5);
+    background-image: linear-gradient(to right, #01ccda, #00b5c6);
 }
 
 .footer-links {
@@ -688,7 +688,7 @@ label {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, #0192a5, #0192a5);
+    background-image: linear-gradient(to right, #00b5c6, #008b9e);
 }
 
 .footer-logobox,
@@ -726,7 +726,7 @@ label {
 }
 
 .footer-container3 {
-    background-image: linear-gradient(to right, #0192a5, #0192a5);
+    background-image: linear-gradient(to right, #008b9e, #016c80);
     display: flex;
     justify-content: center;
     align-items: center;
