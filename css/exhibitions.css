@@ -159,7 +159,7 @@ label {
     font-size: 6rem;
     text-transform: uppercase;
     color: whitesmoke;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
 }
 
 .exhibitions-textbox {
@@ -265,7 +265,7 @@ label {
     color: whitesmoke;
     font-size: 6rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
 }
 
 .cosmology-container1,
@@ -341,7 +341,7 @@ label {
     color: whitesmoke;
     font-size: 6rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
 }
 
 .evolution-container1,
@@ -416,7 +416,7 @@ label {
     color: whitesmoke;
     font-size: 6rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
 }
 
 .biology_medicine-container1,
@@ -492,7 +492,7 @@ label {
     color: whitesmoke;
     font-size: 6rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
 }
 
 .robotics_ai-container1,
@@ -567,7 +567,7 @@ label {
     color: whitesmoke;
     font-size: 6rem;
     text-transform: uppercase;
-    letter-spacing: 0.25rem;
+    letter-spacing: 5px;
 }
 
 .ecology-container1,

@@ -120,6 +120,227 @@ label {
     display: none;
 }
 
+/* VISIT PAGE SECTION */
+
+.visit-section {
+    min-height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visit-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40vh;
+    background-image: url(/images/pexels-charles-parker-5845473-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.visit-banner h2 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+    color: whitesmoke;
+    letter-spacing: 5px;
+}
+
+.visit-container1 {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.visit-container1 img,
+.main-box {
+    margin: 25px;
+    height: 400px;
+    width: 700px;
+    border-radius: 15px;
+}
+
+.main-box {
+    border: 3px solid black;
+    border-radius: 15px;
+    background: white;
+}
+
+.visit-container2 {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-box {
+    margin: 25px;
+    height: 400px;
+    width: 325px;
+    background: green;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+
+.footer-section {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.footer-container1,
+.footer-container2,
+.footer-container3 {
+    width: 33.33%;
+}
+
+.footer-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #01ccda, #00b5c6);
+}
+
+.footer-links {
+    margin-left: 5%;
+    width: 50%;
+}
+
+.footer-links a {
+    text-transform: uppercase;
+    line-height: 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer_links-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_links-mobile a {
+    text-align: center;
+    margin-right: 35px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-links a:hover,
+.footer_links-mobile a:hover {
+    color: white;
+}
+
+.footer-links span:hover,
+.footer_links-mobile span:hover {
+    color: #13da13;
+}
+
+.footer-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #00b5c6, #008b9e);
+}
+
+.footer-logobox,
+.footer_logobox-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 120px;
+    width: 120px;
+    display: flex;
+}
+
+.footer-logotext {
+    font-family: "oswald", sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logotext span {
+    margin-left: 10px;
+    color: black;
+    letter-spacing: 0;
+    display: block;
+}
+
+.footer-container3 {
+    background-image: linear-gradient(to right, #008b9e, #016c80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media-box {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_media-box h4 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.fab {
+    font-size: 3rem;
+    margin: 20px;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.fab:hover {
+    color: #04dbf9;
+}
+
+.footer_links-mobile,
+.footer_logobox-mobile {
+    display: none;
+}
+
+.copyright,
+.copyright-mobile {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.copyright-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 930px) {
     /* HEADER / NAV BAR RESPONSIVE MODE */
 

@@ -133,7 +133,6 @@ label {
     align-items: center;
     width: 100%;
     min-height: 40vh;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,6 +153,7 @@ label {
     font-weight: 600;
     text-shadow: 2px 2px black;
     color: whitesmoke;
+    letter-spacing: 5px;
 }
 
 /* EXPLORE/NEWS SECTION --> CONTAINER 1  */
