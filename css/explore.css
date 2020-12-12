@@ -53,15 +53,15 @@ a {
     font-weight: 700;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
-    color: whitesmoke;
-    background: #d75758;
-    border: 3px solid #d75758;
+    color: white;
+    background: #0192a5;
+    border: 3px solid #0192a5;
     cursor: pointer;
 }
 
 .site-btn:hover {
-    background: white;
-    color: #d75758;
+    background: whitesmoke;
+    color: #0192a5;
 }
 
 /* HEADER */
@@ -120,26 +120,36 @@ label {
     display: none;
 }
 
-/* EXPLORE SECTION */
+/* EXPLORE/NEWS SECTION */
 
-.explore-section {
+.explore-section. .news-section {
     min-height: 200vh;
 }
 
-.explore-banner {
+.explore-banner,
+.news-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 40vh;
-    background-image: url(/images/michal-parzuchowski-BNvk1zqEAjc-unsplash-min-min.jpg);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.explore-banner h2 {
-    font-size: 5rem;
+.explore-banner {
+    background-image: url(/images/michal-parzuchowski-BNvk1zqEAjc-unsplash-min-min.jpg);
+}
+
+.news-banner {
+    background-image: url(/images/arseny-togulev-Ch2kxtjeEEc-unsplash-min-min-min.jpg);
+}
+
+.explore-banner h2,
+.news-banner h2 {
+    font-size: 6rem;
     text-transform: uppercase;
     font-weight: 600;
     text-shadow: 2px 2px black;
@@ -174,27 +184,29 @@ label {
 }
 
 .heading h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: whitesmoke;
     text-align: center;
     text-transform: uppercase;
 }
 
 .intro-text {
-    height: 150px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    /*width: 87.5%;*/
+    width: 1300px;
     background: #0c929e;
     border-radius: 15px;
+    text-align: left;
 }
 
 .intro-text h2,
 .intro-text h1 {
-    margin: 0 100px;
+    margin: 0 90px;
     font-size: 2rem;
-    line-height: 60px;
+    line-height: 80px;
     color: whitesmoke;
 }
 
@@ -206,12 +218,12 @@ label {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 160vh;
+    min-height: auto;
 }
 
 .info-box {
     display: flex;
-    width: 33.4%;
+    width: 25%;
     height: 100%;
     flex-direction: column;
     align-items: center;
@@ -219,8 +231,8 @@ label {
 }
 
 .info-container {
-    width: 392.5px;
-    height: 1200px;
+    width: 360px;
+    min-height: auto;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -229,9 +241,9 @@ label {
 }
 
 .img-box {
-    width: 392.5px;
+    width: 360px;
     background: #0c929e;
-    height: 400px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -241,32 +253,40 @@ label {
 }
 
 .img-box img {
-    width: 392.5px;
-    height: 392.5px;
+    width: 320px;
+    height: 320px;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
 }
 
 .text-box {
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 900px;
     width: 100%;
     background: white;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 
+.explore-text {
+    height: 800px;
+}
+
+.news-text {
+    height: 600px;
+}
+
 .text-box h2,
 .text-box h3,
-.text-box p {
-    margin: 30px 20px;
+.text-box p,
+.text-box button {
+    margin: 30px;
     text-align: left;
     line-height: 30px;
-    color: black;
 }
 
 .text-box h3 {
@@ -287,36 +307,11 @@ label {
 }
 
 .heading-box h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: whitesmoke;
-}
-
-/* NEWS SECTION */
-
-.news-section {
-    min-height: 200vh;
-}
-
-.news-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 40vh;
-    background-image: url(/images/arseny-togulev-Ch2kxtjeEEc-unsplash-min-min-min.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.news-banner h2 {
-    font-size: 5rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-shadow: 2px 2px black;
-    color: whitesmoke;
+    text-align: center;
 }
 
 /* FOOTER */
@@ -472,10 +467,45 @@ label {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 1200px) {
-    .explore-container {
+@media only screen and (max-width: 1460px) {
+    /* EXPLORE SECTION RESPONSIVE MODE */
+
+    .site-btn {
+        padding: 5px;
+        width: 150px;
+        height: 40px;
+        font-size: 1.1rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .heading h3 {
+        font-size: 2.3rem;
+    }
+
+    .intro-text {
+        width: 360px;
+        height: 230px;
+        margin: 20px 0;
+    }
+
+    .intro-text h2,
+    .intro-text h1 {
+        margin: 0 29px;
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .container2 {
         flex-direction: column;
         align-items: center;
+    }
+
+    .news-text {
+        height: 550px;
+    }
+
+    .explore-text {
+        height: 730px;
     }
 }
 
@@ -506,8 +536,6 @@ label {
     #toggle:checked + .menu {
         display: block;
     }
-
-    /* EXPLORE SECTION RESPONSIVE MODE */
 
     /* FOOTER RESPONSIVE MODE */
 
