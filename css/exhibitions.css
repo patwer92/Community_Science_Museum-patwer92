@@ -916,13 +916,13 @@ label {
     }
 
     .exhibitions-nav img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .exhibitions-nav img:hover {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     .exhibitions-nav a {
