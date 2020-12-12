@@ -243,7 +243,7 @@ label {
 /* COSMOLOGY SECTION */
 
 .cosmology-section {
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -251,7 +251,7 @@ label {
 
 .cosmology-banner {
     width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url(/images/richard-gatley-oxgK2f_rxDc-unsplash.jpg);
     background-position: center;
     background-size: cover;
@@ -317,15 +317,16 @@ label {
 /* EVOLUTION SECTION */
 
 .evolution-section {
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .evolution-banner {
     width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url(/images/suzanne-d-williams-VMKBFR6r_jg-unsplash-min.jpg);
     background-size: cover;
     background-position: center;
@@ -392,7 +393,7 @@ label {
 /* BIOLOGY AND MEDICINE SECTION */
 
 .biology_medicine-section {
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -400,7 +401,7 @@ label {
 
 .biology_medicine-banner {
     width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url(/images/dna-3656587_1920-min.jpg);
     background-size: cover;
     background-position: center;
@@ -467,15 +468,16 @@ label {
 /* ROBOTICS AND AI SECTION */
 
 .robotics_ai-section {
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .robotics_ai-banner {
     width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url(/images/pexels-thisisengineering-3913025-sideways.jpg);
     background-size: cover;
     background-position: center;
@@ -542,15 +544,16 @@ label {
 /* ECOLOGY SECTION */
 
 .ecology-section {
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .ecology-banner {
     width: 100%;
-    min-height: 30vh;
+    min-height: 40vh;
     background-image: url(/images/shahadat-rahman-7NgccS8ukSY-unsplash-min.jpg);
     background-size: cover;
     background-position: center;
