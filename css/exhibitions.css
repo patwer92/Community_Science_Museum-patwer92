@@ -141,7 +141,7 @@ label {
 
 .exhibitions-container1 {
     width: 100%;
-    min-height: 50vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -193,7 +193,7 @@ label {
 
 .exhibitions-container2 {
     width: 100%;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +202,7 @@ label {
 
 .exhibitions-nav {
     width: 20%;
-    min-height: 40vh;
+    min-height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -940,7 +940,7 @@ label {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
-        min-height: 20vh;
+        min-height: 15vh;
         background: rgba(0, 0, 0, 0.8);
     }
 
