@@ -500,12 +500,9 @@ label {
         align-items: center;
     }
 
+    .explore-text,
     .news-text {
-        height: 550px;
-    }
-
-    .explore-text {
-        height: 730px;
+        height: auto;
     }
 }
 
