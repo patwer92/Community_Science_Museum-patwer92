@@ -164,9 +164,8 @@ label {
 }
 
 .info-container {
-    width: 590px;
+    width: 370px;
     height: 1200px;
-    background: red;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -175,7 +174,7 @@ label {
 }
 
 .img-box {
-    width: 590px;
+    width: 370px;
     background: #0c929e;
     height: 400px;
     display: flex;
@@ -209,23 +208,23 @@ label {
 .text-box h2,
 .text-box h3,
 .text-box p {
-    margin: 0 70px;
+    margin: 0 20px;
     text-align: left;
     line-height: 30px;
     color: black;
 }
 .text-box h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     color: #0192a5;
 }
 
 .text-box h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .text-box p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* FOOTER */
@@ -377,4 +376,86 @@ label {
 
 .copyright-mobile {
     display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1200px) {
+    .explore-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    /* HEADER / NAV BAR RESPONSIVE MODE */
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0;
+    }
+
+    .menu a:hover {
+        background-color: #f3bf8b;
+    }
+
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    /* EXPLORE SECTION RESPONSIVE MODE */
+
+    /* FOOTER RESPONSIVE MODE */
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .footer-container1,
+    .footer-container2,
+    .footer-container3 {
+        width: 100%;
+        background-image: linear-gradient(to right, #0192a5, #0192a5);
+    }
+
+    .footer-container2 {
+        height: 425px;
+        justify-content: center;
+    }
+
+    .footer-links,
+    .footer-logobox {
+        display: none;
+    }
+
+    .footer_links-mobile,
+    .footer_logobox-mobile {
+        display: flex;
+    }
+
+    .social_media-box {
+        justify-content: space-between;
+    }
+
+    .copyright-mobile {
+        display: block;
+        font-size: 0.8rem;
+        letter-spacing: 0.5px;
+    }
+
+    .copyright {
+        display: none;
+    }
 }
