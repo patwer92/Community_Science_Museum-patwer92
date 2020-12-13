@@ -126,19 +126,6 @@ label {
     display: none;
 }
 
-.cosmology-box,
-.evolution-box,
-.biology_medicine-box,
-.robotics_ai-box,
-.ecology-box {
-    width: 100%;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 /* EXHIBITIONS SECTION */
 
 .exhibitions-section {
@@ -251,6 +238,20 @@ label {
 .exhibitions_mobile-container1,
 .exhibitions_mobile-container2 {
     display: none;
+}
+/* ALL SUB SECTIONS */
+
+.cosmology-box,
+.evolution-box,
+.biology_medicine-box,
+.robotics_ai-box,
+.ecology-box {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* COSMOLOGY SECTION */
@@ -900,7 +901,7 @@ label {
     .biology_medicine-banner h2,
     .robotics_ai-banner h2,
     .ecology-banner h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .exhibitions-textbox {
