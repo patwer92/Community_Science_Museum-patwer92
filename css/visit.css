@@ -334,12 +334,12 @@ label {
 .hours-container2 {
     display: flex;
     flex-direction: column;
-    width: 210px;
+    width: 270px;
     font-weight: 700;
 }
 
 .hours-container1 {
-    margin-left: 22.5%;
+    margin-left: 25.5%;
 }
 
 .info-text {
