@@ -574,7 +574,7 @@ label {
     .live_exhibits-textbox1,
     .live_exhibits-textbox2 {
         width: 390px;
-        height: 320px;
+        height: 350px;
     }
 
     .discover-container1 img,
@@ -592,13 +592,18 @@ label {
         font-size: 2rem;
     }
 
-    .discover-textbox1 p,
     .discover-textbox2 p,
-    .live_exhibits-textbox1 p,
     .live_exhibits-textbox2 p {
         margin: 25px 40px;
         font-size: 1.2rem;
         line-height: 25px;
+    }
+
+    .discover-textbox1 p,
+    .live_exhibits-textbox1 p {
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin: 70px 40px 0 40px;
     }
 }
 
@@ -648,9 +653,14 @@ label {
 
     .discover-textbox1 p,
     .discover-textbox2 p,
-    .live_exhibits-textbox1 p,
+    ,
     .live_exhibits-textbox2 p {
         margin: 15px 15px;
+    }
+
+    .discover-textbox1 p,
+    .live_exhibits-textbox1 p {
+        margin: 70px 15px 0px 15px;
     }
 
     /* FOOTER RESPONSIVE MODE */
