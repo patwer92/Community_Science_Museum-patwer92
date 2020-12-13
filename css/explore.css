@@ -538,6 +538,13 @@ label {
         display: block;
     }
 
+    /* EXPLORE / NEWS SECTION RESPONSIVE MODE */
+
+    .explore-banner h2,
+    .news-banner h2 {
+        font-size: 4rem;
+    }
+
     /* FOOTER RESPONSIVE MODE */
 
     .footer-section {
