@@ -132,7 +132,7 @@ label {
 .robotics_ai-box,
 .ecology-box {
     width: 100%;
-    min-height: 70vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,7 +283,7 @@ label {
 
 .cosmology-container1,
 .cosmology-container2 {
-    margin-top: auto;
+    margin: 5vh;
     width: 80%;
     height: auto;
     display: flex;
@@ -330,7 +330,7 @@ label {
 /* EVOLUTION SECTION */
 
 .evolution-section {
-    min-height: 110vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -358,7 +358,7 @@ label {
 
 .evolution-container1,
 .evolution-container2 {
-    margin-top: 5px;
+    margin-top: 5vh;
     width: 80%;
     height: auto;
     display: flex;
@@ -405,7 +405,7 @@ label {
 /* BIOLOGY AND MEDICINE SECTION */
 
 .biology_medicine-section {
-    min-height: 110vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -433,7 +433,7 @@ label {
 
 .biology_medicine-container1,
 .biology_medicine-container2 {
-    margin-top: 15px;
+    margin-top: 5vh;
     width: 80%;
     height: auto;
     display: flex;
@@ -480,7 +480,7 @@ label {
 /* ROBOTICS AND AI SECTION */
 
 .robotics_ai-section {
-    min-height: 110vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,7 +509,7 @@ label {
 
 .robotics_ai-container1,
 .robotics_ai-container2 {
-    margin-top: 15px;
+    margin-top: 5vh;
     width: 80%;
     height: auto;
     display: flex;
@@ -556,7 +556,7 @@ label {
 /* ECOLOGY SECTION */
 
 .ecology-section {
-    min-height: 110vh;
+    min-height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -584,7 +584,7 @@ label {
 
 .ecology-container1,
 .ecology-container2 {
-    margin-top: 15px;
+    margin-top: 5vh;
     width: 80%;
     height: auto;
     display: flex;
