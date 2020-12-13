@@ -536,6 +536,10 @@ label {
 
     /* VISIT SECTION RESPONSIVE MODE */
 
+    .visit-banner h2 {
+        font-size: 5rem;
+    }
+
     .main-box {
         height: auto;
         flex-direction: column;

@@ -542,7 +542,8 @@ label {
 
     .explore-banner h2,
     .news-banner h2 {
-        font-size: 4rem;
+        font-size: 5rem;
+        letter-spacing: 1rem;
     }
 
     /* FOOTER RESPONSIVE MODE */
