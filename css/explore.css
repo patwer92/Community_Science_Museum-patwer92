@@ -485,8 +485,8 @@ label {
 
     .intro-text {
         width: 360px;
-        height: 230px;
-        margin: 20px 0;
+        height: auto;
+        margin: auto;
     }
 
     .intro-text h2,
