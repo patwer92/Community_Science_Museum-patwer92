@@ -169,8 +169,8 @@ label {
 .involved-box {
     margin: 25px;
     background: white;
-    width: 500px;
-    height: 800px;
+    width: 550px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -180,10 +180,24 @@ label {
 
 .text-box1 p,
 .text-box2 p,
-.text-box3 p {
-    font-size: 1.7rem;
-    margin: 0 55px;
+.text-box3 p,
+.text-box1 h1,
+.text-box2 h3,
+.text-box3 h3 {
+    margin: 0 19px;
     line-height: 35px;
+}
+
+.text-box1 p,
+.text-box2 p,
+.text-box3 p {
+    font-size: 1.2rem;
+}
+
+.text-box1 h1,
+.text-box2 h3,
+.text-box3 h3 {
+    font-size: 1.5rem;
 }
 
 .heading {
@@ -411,8 +425,16 @@ label {
     .text-box1 p,
     .text-box2 p,
     .text-box3 p {
+        font-size: 1.2rem;
+        margin: 10px 20px;
+        line-height: 35px;
+    }
+
+    .text-box1 h1,
+    .text-box2 h3,
+    .text-box3 h3 {
         font-size: 1.5rem;
-        margin: 30px;
+        margin: 0 20px;
         line-height: 35px;
     }
 }
