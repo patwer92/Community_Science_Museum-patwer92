@@ -51,14 +51,14 @@ a {
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: whitesmoke;
-    background: #d75758;
-    border: 3px solid #d75758;
+    background: #0192a5;
+    border: 3px solid #0192a5;
     cursor: pointer;
 }
 
 .site-btn:hover {
     background: white;
-    color: #d75758;
+    color: #0192a5;
 }
 
 /* HEADER */
@@ -182,7 +182,7 @@ label {
 }
 
 .home-textbox2 h2 {
-    color: #d75758;
+    color: whitesmoke;
     text-transform: uppercase;
     font-size: 3rem;
 }
