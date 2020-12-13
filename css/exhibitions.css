@@ -659,7 +659,7 @@ label {
 }
 
 .footer-links {
-    margin-left: 5%;
+    margin-left: 10%;
     width: 50%;
 }
 
@@ -1061,6 +1061,7 @@ label {
     .footer_links-mobile,
     .footer_logobox-mobile {
         display: flex;
+        text-align: center;
     }
 
     .social_media-box {

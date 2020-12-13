@@ -123,7 +123,7 @@ label {
 /* EXPLORE/NEWS SECTION */
 
 .explore-section. .news-section {
-    min-height: 200vh;
+    min-height: auto;
 }
 
 .explore-banner,
@@ -196,18 +196,19 @@ label {
     justify-content: center;
     align-items: center;
     /*width: 87.5%;*/
-    width: 1300px;
-    background: #0c929e;
+    width: 1310px;
+    background: whitesmoke;
     border-radius: 15px;
     text-align: left;
 }
 
 .intro-text h2,
 .intro-text h1 {
-    margin: 0 90px;
+    margin: 0 20px;
     font-size: 2rem;
     line-height: 80px;
-    color: whitesmoke;
+    color: black;
+    text-align: center;
 }
 
 /* EXPLORE/NEWS SECTION --> CONTAINER 2  */
@@ -218,7 +219,7 @@ label {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: auto;
+    min-height: 50vh;
 }
 
 .info-box {
@@ -253,8 +254,8 @@ label {
 }
 
 .img-box img {
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -307,7 +308,7 @@ label {
 }
 
 .heading-box h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: whitesmoke;
@@ -337,7 +338,7 @@ label {
 }
 
 .footer-links {
-    margin-left: 5%;
+    margin-left: 10%;
     width: 50%;
 }
 
@@ -493,10 +494,13 @@ label {
         margin: 0 25px;
         font-size: 1.5rem;
         line-height: 40px;
+        text-align: left;
     }
 
+    .container1,
     .container2 {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
@@ -560,6 +564,7 @@ label {
     .footer_links-mobile,
     .footer_logobox-mobile {
         display: flex;
+        text-align: center;
     }
 
     .social_media-box {

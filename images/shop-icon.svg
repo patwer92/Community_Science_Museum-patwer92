@@ -5,16 +5,12 @@
         fill: none;
       }
 
-      .cls-2 {
-        fill: #4dc6d7;
+      .cls-2, .cls-4 {
+        fill: #016c80;
       }
 
       .cls-3, .cls-4 {
         stroke: none;
-      }
-
-      .cls-4 {
-        fill: #58bece;
       }
     </style>
   </defs>
