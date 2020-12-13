@@ -157,7 +157,7 @@ label {
 }
 
 .involved-container {
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -170,7 +170,7 @@ label {
     margin: 25px;
     background: white;
     width: 500px;
-    height: 700px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -181,7 +181,7 @@ label {
 .text-box1 p,
 .text-box2 p,
 .text-box3 p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0 55px;
     line-height: 35px;
 }
@@ -213,7 +213,7 @@ label {
     justify-content: space-between;
     align-items: center;
     border: none;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 /* FOOTER */
