@@ -43,7 +43,7 @@
         </header>
         <section class="visit-section">
             <div class="visit-banner">
-                <h2>visit</h2>
+                <h2>come visit</h2>
             </div>
             <div class="visit-container1">
                 <img
@@ -154,6 +154,54 @@
                     </div>
                 </div>
             </div>
+            <div class="contact-form">
+                <hr>
+                <h3>Contact Form</h3>
+                <form id="contactForm">
+
+                    <div class="input-box">
+                        <div class="label">
+                            <p>Name</p>
+                        </div>
+                        <input class="input-form" name="contactName" id="contactName"
+                            placeholder=" Type in your name">
+                        <div class="form-error" id="contactNameError">Please enter your name</div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="label">
+                            <p>E-mail</p>
+                        </div>
+                        <input class="input-form" name="contactEmail" id="contactEmail"
+                            placeholder=" Type in your e-mail address" />
+                        <div class="form-error" id="contactEmailError">Please enter a valid e-mail address</div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="label">
+                            <p>Subject</p>
+                        </div>
+                        <input class="input-form" name="contactSubject" id="contactSubject"
+                            placeholder=" Type in your subject">
+                        <div class="form-error" id="contactSubjectError">Your subject must be at least 5 characters
+                        </div>
+                    </div>
+
+                    <div class="input-box">
+                        <div class="label">
+                            <p>Message</p>
+                        </div>
+                        <textarea name="contactMessage" id="contactMessage"
+                            placeholder=" Type in your message"></textarea>
+                        <div class="form-error" id="contactMessageError">Your message must be at least 15 characters
+                        </div>
+                    </div>
+
+                    <button class="contact-btn" type="submit">Send Message</button>
+
+                </form>
+
+            </div>
         </section>
         <footer>
             <div class="footer-section">
@@ -236,5 +284,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/script.js"></script>
     </body>
 </html>
